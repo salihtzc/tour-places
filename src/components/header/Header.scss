@@ -1,25 +1,10 @@
 
 
-header {
-    background-color: black;
-    padding: 1rem;
 
-}
-
-.header_1{
-    list-style: none;
-    text-align:center;
-
-}
-
-.header_1 a {
-    padding: 1rem;
-    color: white;
-    &:hover{
-        color: black;
-        height: 5rem;
-        width: 5rem;
-        background-color: #bce3f5;
-    }
+.header{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem;
 
 }

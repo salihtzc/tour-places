@@ -1,20 +1,13 @@
-import "./header.scss"
+import './Header.scss';
+
 
 const Header =()=> {
-return(
-    <header>
-      <div className="header_1"></div>
-        <a>ABOUT US</a>
-        <a>FOR YOU</a>
-        <a>SERVICES</a>
-        <a>BLOG</a>
-        <a>VLOG</a>
-        <a>CONTACT</a>
-
-    </header>
-);
-
-};
+    return(
+        <div className="header">
+            <h1>Popular Tour Places</h1>
+        </div>
+    )
+}
 
 
 export default Header;

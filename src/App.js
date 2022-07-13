@@ -1,15 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import 'Header';
-import Bootstrap from 'react-bootstrap';
+import './App.scss'
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 
-function App() {
-  return (
+const App = () => {
+  return(
     <div className="App">
-    <Header></Header>
-    
+     <Navbar/> 
+     <Header/> 
+     <Main/>
     </div>
-  );
+  )
 }
 
 export default App;
